@@ -1,0 +1,119 @@
+/************************************************\
+==================================================
+1. Font
+2. Navbar
+3. Quotes
+4. Footer
+==================================================
+\************************************************/
+
+/************************************************\
+==================================================
+1. Font
+==================================================
+\************************************************/
+@font-face {
+  font-family: 'Folkard';
+  src: url('../fonts/folkard_.ttf');
+}
+
+.kaamelott-font {
+  font-family: 'Folkard';
+}
+
+/************************************************\
+==================================================
+2. Navbar
+==================================================
+\************************************************/
+
+.navbar, .container .jumbotron {
+    border-radius: 0px;
+}
+
+.navbar-brand.kaamelott-font {
+    line-height: 30px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.navbar-brand.kaamelott-font:hover {
+    color: #ddd;
+}
+
+.btn.btn-kaamelott {
+    background-color: #a57824;
+    color: white;
+}
+
+.btn.btn-kaamelott:hover {
+    background-color: #996f21;
+}
+/************************************************\
+==================================================
+3. Quotes Header
+==================================================
+\************************************************/
+
+.kaamelott-underline {
+  border-bottom: solid 5px #a57824;
+}
+
+.kaamelott-banner.jumbotron {
+  background-image: url('../img/kaamelott-banner.jpg');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+/************************************************\
+==================================================
+3. Quotes Body
+==================================================
+\************************************************/
+
+.formquoter {
+    max-width: 800px;
+}
+
+.formquoter textarea {
+    resize: vertical;
+    min-height: 50px;
+}
+
+.caption p {
+    text-align: justify;
+}
+
+.thumbnail {
+    position: relative;
+    height: 400px;
+}
+.editdelet {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+/************************************************\
+==================================================
+4. Footer
+==================================================
+\************************************************/
+
+footer{
+  margin-bottom: 10px;
+}
+
+footer ul {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 0 10px;
+}

@@ -1,0 +1,14 @@
+_HiStOrY_V2_
+CREATE DATABASE Kaamelott_1_2017;
+use Kaamelott_1_2017;
+show tables;
+CREATE TABLE citation
+(id int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+author VARCHAR(100) NOT NULL,
+chapter VARCHAR(100) NOT NULL,
+content TEXT NOT NULL,
+date DATETIME,
+image TEXT);
+CREATE TABLE citation (id int NOT NULL AUTO_INCREMENT PRIMARY KEY, author VARCHAR(100) NOT NULL, chapter VARCHAR(100) NOT NULL, content TEXT NOT NULL, date DATETIME, image TEXT);
+describe citation;
+exit
